@@ -1,0 +1,265 @@
+#contenedor1{
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+    margin-right: 100px;
+    /*border-style: solid;
+    /*border-color: black;
+    /*border-width: 5px;
+    /*background-color: aqua;*/
+    padding-top: 100;
+    padding-right: 15%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.flexbox {
+    margin-top: 35%;
+    margin-bottom: 0px;
+    /*margin-right: 100px;*/
+    align-items: center;
+    display: flex;
+    height: 200px;
+    text-align: right;
+    /*justify-content: flex-end;*/
+    width: 45%;
+  
+    /*background: #ffff99;*/
+    color: aliceblue;
+}
+.encabezado{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/ba1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    flex-direction: column;
+}
+.medio1{
+    flex-direction: column;
+}
+#textomedio1{
+    margin-top: 50px;
+    text-align: center;
+}
+.medio1{
+    margin-top: 50px;
+}
+.medio2{
+    flex-direction: row;
+}
+#caja21 {
+    /*margin-top: 0;
+    border-radius:5px;
+    border: 1px solid #999;
+    padding:13px;*/
+    width:50%;
+    height:100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(img/honolulu.jpg);
+    background-size: cover;
+
+    /*background-color: blue;*/
+}
+#caja22 {
+
+    background-color: dimgrey;
+}
+.cajaconte2{
+   
+    width: 50%;
+    height: 100%;
+  
+    /*border-style: solid;
+    /*border-color: black;
+    /*border-width: 5px;
+    /*background-color: aqua;*/
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#contenedor2{
+   margin-top: 100px;
+    /*background-color: dodgerblue;*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /*padding-top: 100px;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    /* flex-direction: column-reverse; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+#caja22{
+    
+    
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#textocaja22{
+    margin-top: 10vh;
+    margin-left: 10px;
+    color: aliceblue;
+}
+#formula{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#tituloform{
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#contenedor3{
+    /*background-color: dodgerblue;*/
+    /*width: 100%;*/
+    height: 80px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    justify-content: space-between;
+    align-items: center;
+}
+.subcaja{
+    width: 45%;
+    height: 50px;
+}
+#formulario1{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+#barraabajo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.nav-link active{
+    color: aliceblue;
+}
+
+.barra_abajo{
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(17, 94, 94);
+    height: 80px;
+  }
+  .item_ba{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 150px;
+  }
+  
+  
+  .item_ba:hover {
+    color: rgb(208, 219, 223);
+  }
+
+  .card-body{
+    align-items: center;
+    text-align: center;
+}
+
+.card-group1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   /* margin-left: 25%;
+    margin-right: 25%;*/
+    width: 630px;
+}
+#cards-compras{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Entrelagos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+#Form-Compra{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+}
+.Contenedor99{
+    /*background-color: dodgerblue;*/
+    /*width: 100%;*/
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+    justify-content: space-around;
+    align-items: left;
+}
+.subcaja99{
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+#combo-cate{
+    width: 100%;
+    /*width: 350px;*/
+    height: 37px;
+    border-color: rgb(224, 222, 222);
+    /*border: end end radius 10px;*/
+}
+#mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 19px;
+    margin-right: 19px;
+    
+    /*margin-top: 10px;
+    /*width: 80%;*/
+}
+#label{
+    padding-top: 15px;
+    height: 40px;
+}
+#label-result{
+    background-color: rgb(168, 196, 248);
+    text-align: left;
+    margin-left: 19px;
+    margin-right: 19px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: larger;
+    font-style: inherit;
+    /*align-items: flex-start;*/
+}
+#form-botones{
+    margin-top: 10px;
+}
